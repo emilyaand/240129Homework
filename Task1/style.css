@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: white;
+    background-color: rgb(45, 125, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    clip-path: polygon(0 0, 100% 0, 100% 147%, 0 174%);
+    max-height: 860px;
+}
+header{
+    padding: 15px;
+    margin-right: 185px;
+}
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header a{
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 180px;
+}
+.right-header a{
+    text-decoration: none;
+    padding-left: 15px;
+}
+.right-header a:last-child{
+    border: 1px solid;
+    border-radius: 3px;
+    /* padding-right: 15px; */
+    padding: 7px;
+    margin-left: 15px;
+}
+/* #main {
+    height: 100px;
+    background: linear-gradient(to right, white 50%, gray 50%)
+} */
+.main {
+    text-align: center;
+    display: flex;
+}
+.left-text{
+    /* margin: 150px 180px; */
+    margin-left: 180px;
+    margin-top: 170px;
+    flex-direction: column;
+    margin-right: 799px;
+    align-items: center;
+
+    border: 1px solid;
+
+}
+.left-text h1{
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left-text h3{
+    color: rgb(163, 174, 194);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.left-text span{
+    color: rgb(135, 156, 209);
+}
+.left-text a{
+    text-decoration: none;
+    background-color: rgb(77, 185, 95);
+    border: 20px solid;
+    border-color:  rgb(77, 185, 95);
+    border-radius: 6rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.right-table div{
+    /* border: 1px solid; */
+    /* margin-left: 30px; */
+    /* margin-top: 150px; */
+    /* flex-direction: column; */
+    /* margin-right: 50px; */
+    /* padding-left: 20px; */
+    /* align-items: center; */
+
+    /* display: block; */
+}
+/* footer .container {
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 93%);
+} */
+
